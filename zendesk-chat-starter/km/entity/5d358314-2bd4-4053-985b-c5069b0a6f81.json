@@ -1,0 +1,33 @@
+{
+  "$id": "helpstarter_5d358314-2bd4-4053-985b-c5069b0a6f81",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answerV2": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [],
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "helpstarter_fAQAnswerMarkdown": {
+      "markdown": "**Are there treatments for COVID-19?**\n\nYes, several treatments have been developed to manage and treat COVID-19. The effectiveness of these treatments may vary depending on the severity of the illness and the individual\u0027s overall health condition. Some of the commonly used treatments for COVID-19 include:\n\n1. **Antiviral Medications**: Certain antiviral drugs, such as Remdesivir, have been authorized for emergency use in hospitalized patients to help reduce the severity and duration of symptoms.\n\n2. **Corticosteroids**: Corticosteroids, like Dexamethasone, have shown to be effective in reducing inflammation and improving outcomes in severely ill patients requiring supplemental oxygen or mechanical ventilation.\n\n3. **Monoclonal Antibodies**: Monoclonal antibody treatments like Regeneron and Eli Lilly\u0027s bamlanivimab and etesevimab have been used to treat mild to moderate cases of COVID-19 in high-risk individuals to help prevent disease progression.\n\n4. **Convalescent Plasma**: Plasma from individuals who have recovered from COVID-19, rich in antibodies, is used as a treatment in some cases to boost the immune response in patients.\n\n5. **Oxygen Therapy**: For patients with respiratory distress or low blood oxygen levels, supplemental oxygen is provided through various methods, including nasal cannula or mechanical ventilation.\n\n6. **Supportive Care**: Supportive treatments like hydration, fever-reducing medications, and pain management can help alleviate symptoms and support the body\u0027s natural healing process.\n\nIt\u0027s important to note that COVID-19 treatments are continuously evolving as researchers learn more about the virus and conduct clinical trials. The availability of treatments may vary depending on the region and healthcare facility. As with any medical condition, it\u0027s crucial to seek medical advice from qualified healthcare professionals for personalized treatment recommendations.\n"
+    },
+    "name": "Are there treatments for COVID-19?",
+    "question": "Are there treatments for COVID-19?"
+  },
+  "entityType": "faq",
+  "labels": []
+}

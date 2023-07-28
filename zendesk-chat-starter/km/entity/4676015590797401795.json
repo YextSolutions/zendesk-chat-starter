@@ -1,0 +1,50 @@
+{
+  "$id": "4676015590797401795",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "helpstarter_coverPhoto": {
+      "image": {
+        "height": 878,
+        "thumbnails": [
+          {
+            "height": 878,
+            "url": "http://a.mktgcdn.com/p/8xLEWSC2kttToEe1LIfKkZmZQ_QcLlbgbLUl8KVZrYk/1560x878.jpg",
+            "width": 1560
+          },
+          {
+            "height": 348,
+            "url": "http://a.mktgcdn.com/p/8xLEWSC2kttToEe1LIfKkZmZQ_QcLlbgbLUl8KVZrYk/619x348.jpg",
+            "width": 619
+          },
+          {
+            "height": 338,
+            "url": "http://a.mktgcdn.com/p/8xLEWSC2kttToEe1LIfKkZmZQ_QcLlbgbLUl8KVZrYk/600x338.jpg",
+            "width": 600
+          },
+          {
+            "height": 110,
+            "url": "http://a.mktgcdn.com/p/8xLEWSC2kttToEe1LIfKkZmZQ_QcLlbgbLUl8KVZrYk/196x110.jpg",
+            "width": 196
+          }
+        ],
+        "url": "http://a.mktgcdn.com/p/8xLEWSC2kttToEe1LIfKkZmZQ_QcLlbgbLUl8KVZrYk/1560x878.jpg",
+        "width": 1560
+      }
+    },
+    "helpstarter_featuredArticles": [
+      "360019246491",
+      "360000000966",
+      "115005978303",
+      "115005990886",
+      "360040900371"
+    ],
+    "helpstarter_heading": "Heading Test",
+    "helpstarter_subHeading": "Sub Heading Test",
+    "name": "Help Center Homepage",
+    "slug": "home"
+  },
+  "entityType": "helpstarter_homePage",
+  "folder": "yext/root",
+  "labels": []
+}

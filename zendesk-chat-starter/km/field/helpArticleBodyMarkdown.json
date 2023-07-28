@@ -1,0 +1,12 @@
+{
+  "$id": "helpstarter_helpArticleBodyMarkdown",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Help Article Body Markdown",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "markdownType": {}
+  },
+  "typeId": "markdown"
+}

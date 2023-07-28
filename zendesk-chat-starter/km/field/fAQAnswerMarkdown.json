@@ -1,0 +1,11 @@
+{
+  "$id": "helpstarter_fAQAnswerMarkdown",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "FAQ Answer Markdown",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "markdownType": {}
+  },
+  "typeId": "markdown"
+}

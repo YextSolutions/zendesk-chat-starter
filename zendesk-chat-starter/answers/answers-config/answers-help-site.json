@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers-help-site",
+  "name": "Answers Help Site",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "name": "FAQs",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "helpstarter_fAQAnswerMarkdown": {
+          "documentSearch": true
+        },
+        "question": {
+          "semanticTextSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT"
+    },
+    "help_articles": {
+      "directAnswers": {
+        "featuredSnippets": {
+          "predictionMode": "ALLOW_ALL"
+        }
+      },
+      "entityTypes": [
+        "helpArticle"
+      ],
+      "name": "Help Articles",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "helpstarter_category": {
+          "facet": true
+        },
+        "helpstarter_helpArticleBodyMarkdown": {
+          "documentSearch": true
+        },
+        "name": {
+          "semanticTextSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT"
+    }
+  },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "help",
+        "support"
+      ],
+      [
+        "guides",
+        "help articles"
+      ]
+    ],
+    "normalization": []
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": [],
+  "richTextV2ToHTML": true,
+  "markdownToHTML": true,
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "popularQueriesBlacklistedRegex": [],
+    "universalPrompts": [
+      "Help Articles",
+      "How-to Guides"
+    ],
+    "verticalPrompts": {
+      "help_articles": [
+        "[[name]]"
+      ]
+    }
+  }
+}

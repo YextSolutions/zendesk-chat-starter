@@ -1,0 +1,95 @@
+{
+  "$schema": "https://schema.yext.com/config/chat/chat-bot/v1",
+  "$id": "zendesk-create-ticket",
+  "name": "Zendesk Create Ticket",
+  "initialMessage": "Hi! This is a Help Center Bot. How can I help you?",
+  "goals": {
+    "CHIT_CHAT": {
+      "examples": [
+        "How are you doing?",
+        "What\u0027s going on?",
+        "What\u0027s your name?",
+        "Thank you!",
+        "Great"
+      ],
+      "goal": "Engage in a casual conversation with the user. If the user\u0027s message does not align with any other goals, this goal should be used.",
+      "instructions": [
+        {
+          "reply": {
+            "instruction": "Reply casually to the user, engaging in cordial conversation.",
+            "mode": "CONVERSATIONAL"
+          }
+        }
+      ]
+    },
+    "create-ticket": {
+      "examples": [
+        "I\u0027d like to open a ticket.",
+        "Can I speak with an agent?",
+        "This does not answer my question.",
+        "How can I get in touch?"
+      ],
+      "goal": "Create Ticket",
+      "instructions": [
+        {
+          "collect": {
+            "fields": [
+              {
+                "description": "issue",
+                "id": "commentBody"
+              }
+            ],
+            "instruction": "Collect the user\u0027s issue."
+          }
+        },
+        {
+          "restApi": {
+            "additionalHeaders": {
+              "Authorization": "Basic ZGZlc2ppYW5AeWV4dC5jb20vdG9rZW46MHZKcjJZS01nUkRFb1BEcVI3SzQ0RXl4ZE52T0hTa3R0Q2JRNmNzbg\u003d\u003d",
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "ticket": {
+                "comment": {
+                  "body": "[[collectedData.commentBody]]"
+                }
+              }
+            },
+            "method": "POST",
+            "url": "https://d3v-yext-demo5.zendesk.com/api/v2/tickets.json"
+          }
+        },
+        {
+          "reply": {
+            "instruction": "Tell the user a representative will be reaching out soon regarding their case.",
+            "mode": "CONVERSATIONAL"
+          }
+        }
+      ]
+    },
+    "help": {
+      "examples": [
+        "How do I reset my password?",
+        "How can I make a return?",
+        "What hours are you open?",
+        "What is your policy?"
+      ],
+      "goal": "Help",
+      "instructions": [
+        {
+          "search": {
+            "experienceKey": "answers-help-site",
+            "instruction": "Search Yext Content when a user asks a question"
+          }
+        },
+        {
+          "reply": {
+            "citationExample": "Include link to the source",
+            "instruction": "Reply to the user with what you found",
+            "mode": "CONVERSATIONAL"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$id": "helpstarter_2d99f4c6-739b-4a71-9ede-755478ce69ba",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answerV2": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [],
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "helpstarter_fAQAnswerMarkdown": {
+      "markdown": "**How can we protect others and ourselves if we don\u0027t know who is infected?**\n\nIn situations where we don\u0027t have information about who might be infected with COVID-19, it is essential to take precautionary measures to protect ourselves and others. Here are some general guidelines to minimize the risk of transmission:\n\n1. **Practice Good Hygiene**: Regularly wash your hands with soap and water for at least 20 seconds, especially after being in public spaces or touching surfaces. If soap and water are not available, use hand sanitizer with at least 60% alcohol content.\n\n2. **Wear Face Masks**: Wear masks that cover your nose and mouth when you are in public settings, especially when social distancing is difficult. Masks can help prevent the spread of respiratory droplets that may contain the virus.\n\n3. **Maintain Physical Distance**: Practice social distancing by staying at least 6 feet away from others, especially in crowded places or gatherings.\n\n4. **Avoid Large Gatherings**: Limit in-person interactions, especially in large groups or gatherings, to reduce the risk of exposure.\n\n5. **Stay Home When Sick**: If you are feeling unwell or experiencing COVID-19 symptoms, such as fever, cough, or difficulty breathing, stay home and self-isolate.\n\n6. **Cover Coughs and Sneezes**: Always cover your mouth and nose with a tissue or your elbow when you cough or sneeze to prevent the spread of respiratory droplets.\n\n7. **Clean and Disinfect Surfaces**: Regularly clean and disinfect frequently touched surfaces and objects, such as doorknobs, handles, and electronics.\n\n8. **Follow Local Guidelines**: Stay informed about COVID-19 guidelines and recommendations issued by local health authorities and follow them diligently.\n\n9. **Consider Outdoor Activities**: Outdoor settings generally have better ventilation, which can reduce the risk of virus transmission. Consider outdoor activities when possible.\n\n10. **Support Contact Tracing Efforts**: If you have been in contact with someone who tested positive for COVID-19, cooperate with contact tracing efforts to identify and notify potential exposures.\n\nRemember, even if you don\u0027t know who is infected, taking these preventive measures can significantly reduce the risk of transmission and protect both yourself and others in the community. It is crucial to remain vigilant and continue following public health guidelines to help control the spread of COVID-19.\n"
+    },
+    "name": "How can we protect others and ourselves if we don\u0027t know who is infected?",
+    "question": "How can we protect others and ourselves if we don\u0027t know who is infected?"
+  },
+  "entityType": "faq",
+  "labels": []
+}

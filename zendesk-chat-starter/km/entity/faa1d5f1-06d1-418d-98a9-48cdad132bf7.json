@@ -1,0 +1,33 @@
+{
+  "$id": "helpstarter_faa1d5f1-06d1-418d-98a9-48cdad132bf7",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answerV2": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [],
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "helpstarter_fAQAnswerMarkdown": {
+      "markdown": "**How long does it take to develop symptoms?**\n\nThe time it takes for symptoms of COVID-19 to appear can vary from person to person. In most cases, symptoms typically develop within 2 to 14 days after exposure to the virus. This period is known as the \"incubation period.\"\n\nCommon symptoms of COVID-19 include:\n\n- Fever or chills\n- Cough\n- Shortness of breath or difficulty breathing\n- Fatigue\n- Muscle or body aches\n- Headache\n- New loss of taste or smell\n- Sore throat\n- Congestion or runny nose\n- Nausea or vomiting\n- Diarrhea\n\nIt is essential to monitor your health and be aware of any symptoms, especially if you have been in contact with someone who tested positive for COVID-19 or have recently traveled to an area with a high number of cases. If you develop symptoms, it is crucial to seek medical advice and consider getting tested for COVID-19 to help prevent further spread of the virus.\n\nKeep in mind that some individuals infected with the virus may be asymptomatic, meaning they show no symptoms at all but can still spread the virus to others. Therefore, following preventive measures such as wearing masks, practicing social distancing, and maintaining good hand hygiene is crucial to reducing the risk of transmission, even in the absence of symptoms.\n"
+    },
+    "name": "How long does it take to develop symptoms?",
+    "question": "How long does it take to develop symptoms?"
+  },
+  "entityType": "faq",
+  "labels": []
+}

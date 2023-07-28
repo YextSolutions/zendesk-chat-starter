@@ -1,0 +1,33 @@
+{
+  "$id": "helpstarter_ad086a59-a70d-49d5-a188-2130c9399fc6",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answerV2": {
+      "json": {
+        "root": {
+          "children": [
+            {
+              "children": [],
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "helpstarter_fAQAnswerMarkdown": {
+      "markdown": "**Are there long-term effects of COVID-19?**\n\nYes, COVID-19 can have long-term effects on some individuals, even after the initial recovery from the acute illness. These long-term effects are often referred to as \"long COVID\" or \"post-acute sequelae of SARS-CoV-2 infection\" (PASC). Some of the common long-term effects reported by COVID-19 survivors include:\n\n1. **Fatigue**: Many individuals experience persistent fatigue, weakness, and exhaustion even months after recovering from the acute phase of the illness.\n\n2. **Shortness of Breath**: Some COVID-19 survivors may continue to experience difficulty in breathing or shortness of breath during physical activity.\n\n3. **Cognitive Issues**: \"Brain fog,\" difficulty concentrating, memory problems, and other cognitive issues have been reported in some long COVID patients.\n\n4. **Joint and Muscle Pain**: Persistent joint and muscle pain or inflammation have been observed in certain individuals.\n\n5. **Heart Problems**: COVID-19 can affect the cardiovascular system, leading to conditions such as myocarditis or inflammation of the heart muscle.\n\n6. **Respiratory Issues**: In some cases, COVID-19 can cause lasting damage to the lungs, resulting in respiratory problems.\n\n7. **Mental Health Challenges**: Long COVID can take a toll on mental health, leading to anxiety, depression, and other psychological symptoms.\n\n8. **Loss of Smell and Taste**: Some individuals may experience a prolonged loss of taste and smell.\n\n9. **Skin Rashes**: Skin rashes and other dermatological issues have been reported as potential long-term effects.\n\n10. **Blood Clots**: COVID-19 survivors may have an increased risk of blood clotting disorders.\n\nIt\u0027s essential to recognize that long COVID can affect people of all age groups, regardless of the severity of their initial illness. The exact cause of these long-term effects is still under investigation, and researchers are studying the phenomenon to better understand and manage it.\n\nIf you or someone you know is experiencing persistent symptoms after recovering from COVID-19, it\u0027s crucial to seek medical attention and follow up with healthcare professionals for appropriate evaluation and management.\n"
+    },
+    "name": "Are there long-term effects of COVID-19?",
+    "question": "Are there long-term effects of COVID-19?"
+  },
+  "entityType": "faq",
+  "labels": []
+}

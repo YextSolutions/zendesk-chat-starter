@@ -1,0 +1,25 @@
+{
+  "$id": "360040900371",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "externalArticlePostDate": "2020-03-12",
+    "externalArticleUpdateDate": "2022-04-21",
+    "helpstarter_category": "360000236466",
+    "helpstarter_helpArticleBodyMarkdown": {
+      "markdown": "\u003cp\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003eA Site is intended to host the collection of all of the pages that you would like to publish to a specific domain. For example, you could have a Site called “Locations,” which contains a Page Builder Template for each location page and a Finder page to search for a location. This article walks you through the steps to add a new Site. To create a domain, see \u003c/span\u003e\u003ca href\u003d\"https://help.yext.com/hc/en-us/articles/360019246491-Set-up-a-Subdomain\"\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003eAdd a Domain\u003c/span\u003e\u003c/a\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003e.\u003c/span\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003eTo add a Site:\u003c/span\u003e\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cspan style\u003d\"font-weight: 400;\"\u003eClick \u003c/span\u003e\u003cstrong\u003ePages \u003c/strong\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003ein the navigation bar and \u003c/span\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003eclick \u003cstrong\u003eAll\u003c/strong\u003e \u003c/span\u003e\u003cstrong\u003eSites\u003c/strong\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003e.\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cspan style\u003d\"font-weight: 400;\"\u003eClick on the \u003c/span\u003e\u003cstrong\u003e+ Add New Site \u003c/strong\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003ebutton.\u003c/span\u003e \u003cspan style\u003d\"font-weight: 400;\"\u003eA dialog box appears.\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003eEnter a name for your Site.\u003c/span\u003e\u003c/li\u003e\n\u003cli\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003eClick \u003cstrong\u003eContinue\u003c/strong\u003e.\u003c/span\u003e\u003c/li\u003e\n\u003cli\u003e\u003cspan style\u003d\"font-weight: 400;\"\u003eTo add Page Builder Templates to your Site, see \u003ca href\u003d\"https://help.yext.com/hc/en-us/articles/360001289346\" target\u003d\"_self\"\u003eCreate a Page Builder Template\u003c/a\u003e, \u003ca href\u003d\"https://help.yext.com/hc/en-us/articles/360020428592-Create-an-Event-Calendar-Page\"\u003eCreate an Event Calendar Page\u003c/a\u003e, \u003ca href\u003d\"https://help.yext.com/hc/en-us/articles/360022459391-Create-a-Store-Locator-Page\"\u003eCreate a Location Finder Page\u003c/a\u003e, \u003ca href\u003d\"https://help.yext.com/hc/en-us/articles/360035674011-Create-an-Individual-FAQ-Page\"\u003eCreate an Individual FAQ Page\u003c/a\u003e, or \u003ca href\u003d\"https://help.yext.com/hc/en-us/articles/360035674071-Create-an-FAQ-Locator-Page\"\u003eCreate an FAQ Locator Page\u003c/a\u003e, depending on the type of template you would like to create.\u003c/span\u003e\u003c/li\u003e\n\u003c/ol\u003e"
+    },
+    "keywords": [
+      "all_channels",
+      "all_regions"
+    ],
+    "landingPageUrl": "https://help.yext.com/hc/en-us/articles/360040900371-Add-a-Site",
+    "name": "Add a Site",
+    "promoted": false,
+    "slug": "360040900371",
+    "voteCount": 1,
+    "voteSum": -1
+  },
+  "entityType": "helpArticle",
+  "labels": []
+}
